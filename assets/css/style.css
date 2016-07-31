@@ -6,16 +6,13 @@ html, body {
 	height: 100%;
 }
 
+
 .wrapper {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
+	width: 100%;
 	margin: 0 auto -4em;
-}
-
-.footer, .push {
-	clear: both;
-	height: 4em;
 }
 
 h1 {
@@ -26,11 +23,21 @@ h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	line-height: 1.75em;
+}
+
+
+/* HEADER */
+
 
 header {
 	width: 100%;
 	background: #ffffff;
 	height: 90px;
+	border-bottom: 1px solid #cccccc;
 }
 
 header h1 {
@@ -48,6 +55,7 @@ header h1 {
 	margin-left: 120px;
 }
 
+/* NAVIGATION */
 
 nav {
 	float: right;
@@ -58,7 +66,8 @@ nav ul{
 	list-style-type: none;
 	overflow: hidden;
 	padding-right: 150px;
-	margin: 0;
+	padding-top: 20px;
+	padding-right: 160px;
 }
 
 nav ul li {
@@ -67,14 +76,21 @@ nav ul li {
 	padding-right: 20px;
 }
 
-nav ul li a{
+nav ul li a {
 	display: block;
 	text-decoration: none;
 	color: #777777;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 0;
+	padding-right: 20px;
 	font-size: 18px;
 }
+
+#index-link, #portfolio-link {
+	border-right: 1px solid #cccccc;
+}
+
+/* MAIN (LEFT) CONTENT */
 
 .content {
 	clear: both;
@@ -83,8 +99,8 @@ nav ul li a{
 	margin-left: 120px;
 	margin-top: 40px;
 	background: #ffffff;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	border: 1px solid #dddddd;
@@ -97,6 +113,15 @@ nav ul li a{
 	padding-bottom: 30px;
 	margin-bottom: 30px;
 }
+
+#profile-pic {
+	width: 25%;
+	float: left;
+	margin-right: 15px;
+}
+
+
+/* SOCIAL MEDIA */
 
 .social-media {
 	float: right;
@@ -124,27 +149,22 @@ nav ul li a{
 
 }
 
-/* BACKGROUND */
-
-#background {
-	background-size: 100% 100%
-	height: 100%;
-	width: 100%;
-	position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-}
-
 
 /* FOOTER */
 
-.footer {
+footer {
 	clear: both;
 	width: 100%;
+	height: 80px;
 	text-align: center;
 	background: #666666;
-	color: #777777;
+	color: white;
+	border-top: 5px solid #4aaaa5;
+}
+
+footer p {
+	padding-top: 30px;
+	color: white;
 }
 
 
@@ -152,6 +172,9 @@ nav ul li a{
 
 .form {
 	width: 100%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	line-height: 1.75em;
 }
 
 #message-form {
