@@ -31,6 +31,7 @@ p {
 
 a{
 	text-decoration: none;
+	color: #4aaaa5;
 }
 
 
@@ -188,8 +189,34 @@ footer p {
 	line-height: 1.75em;
 }
 
+input[type="text"] {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+textarea{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+.form:focus {
+	border: 2px solid #4aaaa5;
+}
+
 #message-form {
 	height: 250px;
+}
+
+.button {
+	background-color: #4aaaa5;
+	color: white;
+	border-radius: 8px;
+	font-size: 20px;
+	border-color: #4aaaa5;
+}
+
+.button:hover {
+	background-color: #367c79;
 }
 
 /* PORTFOLIO PAGE */
