@@ -1,3 +1,5 @@
+/* DOCUMENT WIDE */
+
 * {
 	margin: 0;
 }
@@ -125,6 +127,10 @@ nav ul li a:hover:not(.active) { color: #4aaaa5; }
 	color: #4aaaa5;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
+}
+
+.content a:hover {
+	color: #367c79;
 }
 
 #profile-pic {
